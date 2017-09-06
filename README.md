@@ -8,10 +8,15 @@ See [the blog post](http://szhorvat.net/pelican/latex-typesetting-in-mathematica
 
 ## Installation
 
- - [Download the latest release](https://github.com/szhorvat/MaTeX/releases), distributed as a `.paclet` file, and install it using the `PacletInstall` function in Mathematica.  For example, assuming that the file `MaTeX-1.7.1.paclet` was downloaded into the directory `~/Downloads`, evaluate
+ - [Download the latest release](https://github.com/szhorvat/MaTeX/releases), distributed as a `.paclet` file, and install it using the `PacletInstall` function in Mathematica.  For example on unix like platforms, assuming that the file `MaTeX-1.7.1.paclet` was downloaded into the directory `~/Downloads`, evaluate
 
         Needs["PacletManager`"]
         PacletInstall["~/Downloads/MaTeX-1.7.1.paclet"]
+
+and on Windows:
+
+        Needs["PacletManager`"]
+        PacletInstall["C:\\Users\\foo\\Downloads\\MaTeX-1.7.1.paclet"]
 
  - Make sure that a TeX system and Ghostscript 9.15 or later are installed.  
 
